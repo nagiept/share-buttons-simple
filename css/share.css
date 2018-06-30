@@ -9,10 +9,8 @@
 	text-align: left !important;
 	list-style: none;
 	letter-spacing: -.4em;
-	width: 50px;
-	height: 50px;
-	font-size: 25px;
-	color: #fff;
+	width: 2em;
+	height: 2em;
 	transition-property: width;
 	transition-duration: .5s;
 	transition-timing-function: cubic-bezier(0, 0, 0, 1);
@@ -45,19 +43,19 @@ input.sharebox {
 	display: inline-block;
 	vertical-align: top;
 	letter-spacing: normal;
-	width: 50px;
-	height: 50px;
+	width: 2em;
+	height: 2em;
 	cursor: pointer;}
 
 input.sharebox:checked + .share-button {
-	width: 200px;}
+	width: 9em;}
 
 .domain-input {
 	display: inline-block;
 	position: relative;
 	letter-spacing: normal;
 	vertical-align: top;
-	width: 100px;
+	width: 5em;
 	height: 100%;}
 
 .share-a {
@@ -65,8 +63,8 @@ input.sharebox:checked + .share-button {
 	position: relative;
 	vertical-align: top;
 	letter-spacing: normal;
-	width: 50px;
-	height: 50px;}
+	width: 2em;
+	height: 2em;}
 
 .domain-input input[type="url"] {
 	display: block;
@@ -80,66 +78,7 @@ input.sharebox:checked + .share-button {
 	text-align: left;
 	letter-spacing: normal;
 	border: none;
-	border-bottom: solid 2px #fff;
+	border-bottom: solid 2px;
 	background: rgba(255,255,255,0.3);
 	width: 100px;
-	height: 40%;
 	color: #fff;}
-
-.twitter-b {
-	background: #55acee;}
-
-.facebook-b {
-	background: #3B5998;}
-
-.tumblr-b {
-	background: #2c4762;}
-
-.googleplus-b {
-	background: #dd4b39;}
-
-.pinterest-b {
-	background: #cb2027;}
-
-.linkedin-b {
-	background: #0e76a8;}
-
-.vk-b {
-	background: #45668e;}
-
-.stumbleupon-b {
-	background: #eb4924;}
-
-.weibo-b {
-	background: #df2029;}
-
-.mixi-b {
-	background: #d1ad59;}
-
-.line-b {
-	background: #1dcd00;}
-
-.hatebu-b {
-	background: #008fde;}
-
-.pocket-b {
-	background: #ef3f56;}
-
-.gnusocial-b {
-	background: #a22430;}
-
-.mastodon-b {
-	background: #2b90d9;}
-
-.diaspora-b {
-	background: #222;}
-
-.friendica-b {
-	background: #5385c1;}
-
-.socialhome-b {
-	background: #2fcbbe;
-	background: linear-gradient(to bottom right, #3088d4, #2fcbbe, #77ffbd);}
-
-.hubzilla-b {
-	background: #43488a;}
