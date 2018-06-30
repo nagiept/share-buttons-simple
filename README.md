@@ -1,10 +1,11 @@
-# share-buttons
+# share-buttons-simple
 **VERY MANY SHARE BUTTONS**
+*Simple ver.*
 
-Demo: https://nagiept.github.io/share-buttons
+Demo: https://nagiept.github.io/share-buttons-simple
 ## How to Use
-You can share by clicking the buttons.
-If you want to share to distributed social networks, you can share by click the buttons after input server domains and click the arrow.
+You can share by clicking the icons.
+If you want to share to distributed social networks, you can share by click the icons after input server domains and click the arrow.
 ## How to Set
 ***Copy & Paste!!!!!!!!!!!!!!!!***
 ## Supported Services
