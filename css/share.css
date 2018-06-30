@@ -9,6 +9,7 @@
 	text-align: left !important;
 	list-style: none;
 	letter-spacing: -.4em;
+	margin-bottom: .4em;
 	width: 2em;
 	height: 2em;
 	transition-property: width;
