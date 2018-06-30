@@ -80,5 +80,5 @@ input.sharebox:checked + .share-button {
 	border: none;
 	border-bottom: solid 2px;
 	background: rgba(255,255,255,0.3);
-	width: 100px;
+	width: 100%;
 	color: #fff;}
