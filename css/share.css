@@ -15,7 +15,9 @@
 	transition-duration: .5s;
 	transition-timing-function: cubic-bezier(0, 0, 0, 1);
 	overflow: hidden;
-	white-space: nowrap}
+	white-space: nowrap
+	border-radius: 1.2em;
+    	border: solid 1px currentColor;}
 
 .share-button i {
 	position: absolute;
@@ -78,7 +80,6 @@ input.sharebox:checked + .share-button {
 	text-align: left;
 	letter-spacing: normal;
 	border: none;
-	border-bottom: solid 2px;
+	border-bottom: solid 2px currentColor;
 	background: rgba(255,255,255,0.3);
-	width: 100%;
-	color: #fff;}
+	width: 100%;}
