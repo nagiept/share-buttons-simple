@@ -15,7 +15,7 @@
 	transition-duration: .5s;
 	transition-timing-function: cubic-bezier(0, 0, 0, 1);
 	overflow: hidden;
-	white-space: nowrap
+	white-space: nowrap;
 	border-radius: 1.2em;
     	border: solid 1px currentColor;}
 
