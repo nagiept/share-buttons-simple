@@ -36,6 +36,10 @@ $(function(){
 			case 'linkedin_s':
 				$(this).attr('href','https://www.linkedin.com/shareArticle?mini=true&url='+ pageUrl +'&title='+ pageTitle);
 			break;
+			
+			case 'myspace_s':
+				$(this).attr('href','https://myspace.com/post?u='+ pageUrl +'&t='+ pageTitle +'&l=3&c=%3C!--%20AddToAny%20BEGIN%20--%3E%3Cdiv%20class%3D%22a2a_kit%20a2a_kit_size_32%20a2a_default_style%22%3E%3Ca%20class%3D%22a2a_dd%22%20href%3D%22https%3A%2F%2Fwww.addtoany.com%2Fshare%22%3E%3C%2Fa%3E%3Ca%20class%3D%22a2a_button_facebook%22%3E%3C%2Fa%3E%3Ca%20class%3D%22a2a_button_twitter%22%3E%3C%2Fa%3E%3Ca%20class%3D%22a2a_button_google_plus%22%3E%3C%2Fa%3E%3Ca%20class%3D%22a2a_button_qzone%22%3E%3C%2Fa%3E%3Ca%20class%3D%22a2a_button_myspace%22%3E%3C%2Fa%3E%3Ca%20class%3D%22a2a_button_renren%22%3E%3C%2Fa%3E%3C%2Fdiv%3E%3Cscript%20async%20src%3D%22https%3A%2F%2Fstatic.addtoany.com%2Fmenu%2Fpage.js%22%3E%3C%2Fscript%3E%3C!--%20AddToAny%20END%20--%3E);
+			break;
 
 			case 'vk_s':
 				$(this).attr('href','http://vkontakte.ru/share.php?url='+ pageUrl);
@@ -51,6 +55,14 @@ $(function(){
 				
 			case 'weibo_s':
 				$(this).attr('href','http://service.weibo.com/share/share.php?title='+ pageTitle +'&url='+ pageUrl);
+			break;
+			
+			case 'renren_s':
+				$(this).attr('href','http://www.connect.renren.com/share/sharer?url='+ pageUrl +'&title='+ pageTitle);
+			break;
+			
+			case 'qzone_s':
+				$(this).attr('href','https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+ pageUrl);
 			break;
 
 			case 'mixi_s':
