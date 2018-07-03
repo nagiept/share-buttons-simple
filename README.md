@@ -15,10 +15,13 @@ If you want to share to distributed social networks, you can share by click the 
 * Google+
 * Pinterest
 * linkedin
+* Myspace
 * ВКонтакте (VK)
 * Одноклассники
 * Stumbleupon
 * 微博
+* 人人网
+* QQ空间
 * mixi
 * LINE
 * はてなブックマーク
