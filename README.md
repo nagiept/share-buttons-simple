@@ -16,6 +16,7 @@ If you want to share to distributed social networks, you can share by click the 
 * Pinterest
 * linkedin
 * ВКонтакте (VK)
+* Одноклассники
 * Stumbleupon
 * 微博
 * mixi
