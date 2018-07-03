@@ -40,6 +40,10 @@ $(function(){
 			case 'vk_s':
 				$(this).attr('href','http://vkontakte.ru/share.php?url='+ pageUrl);
 			break;
+			
+			case 'odnoklassniki_s':
+				$(this).attr('href','http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl='+ pageUrl +'&st.comments='+ pageTitle);
+			break;
 
 			case 'stumbleupon_s':
 				$(this).attr('href','http://www.stumbleupon.com/submit?url='+ pageUrl +'&title='+ pageTitle);
