@@ -1,18 +1,17 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?vmdedn');
-  src:  url('fonts/icomoon.eot?vmdedn#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?vmdedn') format('truetype'),
-    url('fonts/icomoon.woff?vmdedn') format('woff'),
-    url('fonts/icomoon.svg?vmdedn#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?tp7hcm');
+  src:  url('fonts/icomoon.eot?tp7hcm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?tp7hcm') format('truetype'),
+    url('fonts/icomoon.woff?tp7hcm') format('woff'),
+    url('fonts/icomoon.svg?tp7hcm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 i {
-  /* use !important to prevent issues with browser extensions that change fonts 
-  but i do not use it to avoid race condition with other webfonts*/
-  font-family: 'icomoon';
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -25,6 +24,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-qzone:before {
+  content: "\e913";
+}
 .icon-mixi:before {
   content: "\e908";
 }
@@ -81,4 +83,7 @@ i {
 }
 .icon-line:before {
   content: "\e912";
+}
+.icon-myspace:before {
+  content: "\e914";
 }
