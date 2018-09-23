@@ -28,6 +28,7 @@ If you want to share to distributed social networks, you can share by click the 
 * Pocket
 * GNU social
 * Mastodon
+
 * diaspora*
 * Friendica
 * Socialhome
