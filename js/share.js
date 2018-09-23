@@ -100,6 +100,16 @@ $(function(){
 					});
 				});
 			break;
+			
+			case 'misskey_s':
+				var $input = $('#misskey');
+  				$input.on('input', function(event) {
+    					var instDomain = $input.val();
+  					$(document).ready(function() {
+						$('#misskey_s').attr('href','https://'+ instDomain +'/share?text='+ pageTitle +'%0A'+ pageUrl);
+					});
+				});
+			break;
 				
 			case 'diaspora_s':
 				var $input = $('#diaspora');
